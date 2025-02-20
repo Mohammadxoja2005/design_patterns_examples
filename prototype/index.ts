@@ -22,3 +22,5 @@ const originalUser = new DeepUser("John", "30", ["JS", "TS", "React"]);
 const copiedUser = originalUser.clone();
 
 console.log(originalUser === copiedUser); // false
+
+// this pattern is useful when we want to reuse object multiple times without mutating it
